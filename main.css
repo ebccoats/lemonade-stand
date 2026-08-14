@@ -5,7 +5,64 @@ div {
 body {
     background-color:  black;
     color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+
+table {
+      /* Keeps the borders separated to get the double-line look */
+  border-collapse: separate; 
+  border-spacing: 2px; 
+  
+  border: 1px solid #808080;
+  font-family: serif;
+}
+
+th {
+  background-color: #b5b2ad;
+  color: #000;
+  font-weight: bold;
+  padding: 4px 6px; /* Replicates cellpadding */
+  
+  /* Raised button effect for headers */
+  border: 2px outset #fff; 
+}
+
+td {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: #000;
+  color: #fff;
+  padding: 4px 6px; /* Replicates cellpadding */
+  
+  /* Sunken, carved-in effect for data cells */
+  border: 2px inset #fff; 
+}
+
+button {
+    background-color: #c0c0c0;
+  color: #000000;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  padding: 4px 12px;
+  border-top: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  box-shadow: inset 1px 1px #dfdfdf, inset -1px -1px #808080;
+  outline: none;
+  position: relative;
+  border-radius: 2px;
+}
+
+button:active {
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  border-radius: 2px;
+  
+  /* Physically forces the button down and right by 2 pixels */
+}
+
+
 
 .page-container {
     width: 100vw;

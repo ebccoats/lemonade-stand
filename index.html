@@ -5,18 +5,148 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
-    <div class="page-container">
+    <!-- <div class="page-container"> -->
+    <!---->
+    <!--     <div class="header"> -->
+    <!--         <img src="./assets/lemonade-stand-title.png"> -->
+    <!--     </div> -->
+    <!---->
+    <!--     <div class="game-container"> -->
+    <!--         Game goes here -->
+    <!--     </div> -->
+    <!---->
+    <center><img src="./assets/lemonade-stand-title.png"></center>
+    <center>
+        <table width="50%">
+            <tr>
+                <td><center>Hi! Welcome to Lemonsville, California!</center>
+                    <p>
+                    In this small town, you are in charge of running your own lemonade stand. You can compete with as many other people as you wish, but how much profit you make is up to you (the other stands' sales will not affect your business in any way). If you make the most money, you're the winner!
+                    <center><a href="#instructions">Read game instructions!</a></center>
+                </td>
+            </tr>
+        </table>
+    </center>
+    <center><img id="gameboard" src="./assets/lemonade-stand-title.png"></center>
 
-        <div class="header">
-            <img src="./assets/lemonade-stand-title.png">
-        </div>
+    <p>
+    <center>
+        <table width="75%">
+                <tr><td>
+            <table width="100%">
+                <tr><td border="none" id="day" align="left">Day 1</td>
+                    <td border="none" id="weather" align="right">Sunny weather</td>
+                </tr> 
+            </table>
+            <tr><td id="notice" height="100"><center>ANNOUNCEMENT!</center>
+                </td></tr>
+                </td></tr>
+            <table width="75%">
+                <tr>
+                    <td width="25%"><center>1 cup of lemonade costs you</center></td>
+                    <td width="25%"><center>Cups to make</center></td>
+                    <td width="25%"><center>Price to charge per cup</center></td>
+                    <td width="25%"><center>How many advertising signs to make</center></td>
+                </tr>
+                <tr>
+                    <td height="100"><center>$0.02</center></td>
+                    <td id="cups-to-make" align="center"><button>-</button> 6  <button>+</button></td>
+                    <td id="price" align="center"><button>-</button> 1.00  <button>+</button></td>
+                    <td id="flyers" align="center"><button>-</button> 85  <button>+</button></td>
+                </tr>
+            </table>
+            <table width="75%">
+                <tr>
+                    <td width="25%" height="75" align="right" valign="bottom">Cash on hand</td>
+                    <td width="25%" height="75" align="left" valign="bottom">$35</td>
+                    <td id="end-day" align="right" valign="bottom"><button>End day</button></td>
+                </tr>
+            </table>
+    </center>
+    <!-- </div> -->
 
-        <div class="game-container">
-            Game goes here
-        </div>
-
-    </div>
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>
+    <center>
+        <table width="50%">
+            <tr><td><center>Instructions</center></td></tr>
+            <tr><td>
+                    <table id="instructions"> 
+        <tr>
+            <td width="50%">
+                To manage your lemonade stand, you will need to make these decisions every day:
+                <p>
+                1. How many cups of lemonade to make (only one batch is made each morning)
+                <p>2. How many advertising signs to make (the signs cost $0.15 each)
+                <p>3. What price to charge for each cup 
+                <p>You will begin with $2.00 cash. Because your mom gave you some sugar, your cost to make lemonade is $0.02 per cup (this may change in the future).
+            </td>
+            <td width="50%" valign="top">Your expenses are the sum of the cost of the lemonade and the cost of the signs.
+                <p>Your profits are the difference between the income from sales and your expenses.
+                <p>The number of cups you sell each day depends on the price you charge, and the number of advertising signs you use.
+                <p>Keep track of your money, because you can't spend more than you have!
+                <p><center><a href="#gameboard">Start Game</a></center>
+            </td>
+        </tr>
+    </table>
+                </td></tr>
+        </table>
+    </center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p><center>Lemonade Stand
+        <br>From an original program
+        <br>by Bob Jamison, of the 
+        <br>Minnesota Educational
+        <br>Computing Consortium
+        <br>***
+        <br>Modified for the Apple
+        <br>February, 1979
+        <br>By Charlie Kellner
+        <br>***
+        <br>logic from <a href="https://github.com/possibly-wrong/lemonade">possibly-wrong</a>
     <script src="game.js" defer></script>
 </body>
 </html>
